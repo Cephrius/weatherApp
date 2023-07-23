@@ -4,7 +4,6 @@
     border: 0;
     outline: none;
     box-sizing: border-box;
-   
 }
 
 body{
@@ -12,82 +11,67 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3266a8;
+    background: #3271a8;
 }
 
 .container{
     position: relative;
-    width: 430px;
+    width: 500px;
     height: 105px;
     background: #fff;
-    padding: 32px 34px;
+    padding: 32px 82px;
     overflow: hidden;
     border-radius: 18px;
     font-family: 'Roboto', sans-serif;
-    transition: 0.6s ease-out;
-
+    transition: 0.8s ease-out;
 }
-/* ... (previous CSS code) ... */
 
-.search-box {
+.search-box{
     width: 100%;
     height: min-content;
-    padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.search-box input {
-    color: #3266a8;
+.search-box input{
+    color: #3271a8;
     width: 80%;
     font-size: 24px;
     font-weight: 500;
     text-transform: uppercase;
-    padding-bottom: 30px;
     padding-left: 32px;
 }
 
-.search-box input::placeholder {
+.search-box input::placeholder{
     font-size: 20px;
     font-weight: 500;
-    color: #3266a8;
+    color: #3271a8;
     text-transform: capitalize;
 }
 
-.search-box button {
-    position: relative;
-    width: 60px; /* Set a fixed width for the button */
-    height: 60px; /* Set a fixed height for the button */
-    color: #3266a8;
-    background: #dff6ff;
+.search-box button{
     cursor: pointer;
-    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    color: #3271a8;
+    background: #dff6ff;
     border-radius: 50%;
+    font-size: 22px;
     transition: 0.4s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30px;
 }
 
-/* ... (remaining CSS code) ... */
-
-
 .search-box button:hover{
-    background: #3266a8;
     color: #fff;
+    background: #3271a8;
 }
 
 .search-box i{
     position: absolute;
-    color: #3266a8;
+    color: #3271a8;
     font-size: 28px;
-    padding-bottom: 20px;
-    
-
 }
- 
+
 .weather-box{
     text-align: center;
 }
@@ -99,41 +83,38 @@ body{
 
 .weather-box .temperature{
     position: relative;
-    color: #3266a8;
+    color: #3271a8;
     font-size: 4rem;
     font-weight: 800;
     margin-top: 30px;
     margin-left: -16px;
-
 }
 
 .weather-box .temperature span{
     position: absolute;
     margin-left: 4px;
     font-size: 1.5rem;
-
 }
 
 .weather-box .description{
-    color: #3266a8;
+    color: #3271a8;
     font-size: 22px;
     font-weight: 500;
     text-transform: capitalize;
 }
-.weather-details {
+
+.weather-details{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-
 }
 
-.weather-details .humidity, .weather-details .wind{
+.weather-details .humidity, .weather-details .wind {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 20%;
     height: 100px;
-
 }
 
 .weather-details .humidity{
@@ -141,24 +122,29 @@ body{
     justify-content: flex-start;
 }
 
+.weather-details .wind{
+    padding-right: 20px;
+    justify-content: center
+}
+
+
 .weather-details i{
-    color: #3266a8;
+    color: #3271a8;
     font-size: 26px;
     margin-right: 10px;
     margin-top: 6px;
 }
+
 .weather-details span{
-    color: #3266a8;
+    color: #3271a8;
     font-size: 22px;
     font-weight: 500;
-   
 }
 
 .weather-details p{
-    color: #3266a8;
+    color: #3271a8;
     font-size: 14px;
     font-weight: 500;
-   
 }
 
 .not-found{
@@ -175,7 +161,7 @@ body{
 }
 
 .not-found p{
-    color: #3266a8;
+    color: #3271a8;
     font-size: 22px;
     font-weight: 500;
     margin-top: 12px;
@@ -192,7 +178,7 @@ body{
 }
 
 @keyframes fadeIn{
-    to{
+    to {
         scale: 1;
         opacity: 1;
     }
