@@ -15,9 +15,12 @@ The Weather App is a simple and user-friendly web application that allows users 
 - **Real-time Data**: Weather data is updated in real-time to provide the latest information.
 <div align='center'>
   <img src="images/demo1.png" alt="Weather App">
-  <img src="imgaes/demo2.png" alt="Weather App">
 </div>
 
+<div align='center'>
+  <img src="images/2demo.png" alt="Weather App"/>
+</div>
+  
 ## How to Use
 
 1. **Open the App**: Visit the website hosting the Weather App.
@@ -30,12 +33,8 @@ The Weather App is a simple and user-friendly web application that allows users 
 
 The Weather App is developed using the following technologies:
 
-- **Front-end**: HTML5, CSS3, JavaScript
-- **Weather API**: [openweather.org]
-
-## Installation
-
-As a web application, there is no installation required to use the Weather App. Users can access it directly through a web browser on any device with an internet connection.
+- **Front-end**: HTML5, CSS, JavaScript
+- **Weather API**: [Link Text](openweather.org)
 
 ## Development
 
@@ -47,11 +46,11 @@ If you are interested in contributing to the development of the Weather App or r
 
 ## API Usage
 
-The Weather App utilizes a weather API to fetch weather data for different locations. As of now, the API used is [Insert Weather API Provider Name]. If you plan to deploy this app or make changes that depend on weather data, you will need to sign up for an API key from the weather service provider.
+The Weather App utilizes a weather API to fetch weather data for different locations. As of now, the API used is [openweather.org]. If you plan to deploy this app or make changes that depend on weather data, you will need to sign up for an API key from the weather service provider.
 
 ## License
 
-The Weather App is released under the [Insert License Name] License. For more details, please refer to the `LICENSE` file in this repository.
+The Weather App is released under the [MIT] License. For more details, please refer to the `LICENSE` file in this repository.
 
 ## Contribution Guidelines
 
@@ -59,6 +58,6 @@ Contributions to the Weather App are welcome! If you find any issues or have sug
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, feel free to contact the development team at [Your Email Address].
+If you have any questions, suggestions, or feedback, feel free to contact me at [chiedozie.ehileme@gmail.com].
 
 Thank you for using the Weather App! We hope it helps you stay prepared and informed about the weather conditions in your desired locations.
