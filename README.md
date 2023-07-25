@@ -34,7 +34,7 @@ The Weather App is a simple and user-friendly web application that allows users 
 The Weather App is developed using the following technologies:
 
 - **Front-end**: HTML5, CSS, JavaScript
-- **Weather API**: [Link Text](openweather.org)
+- **Weather API**: [Weather API](https://www.openweather.org)
 
 ## Development
 
