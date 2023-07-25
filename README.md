@@ -34,7 +34,7 @@ The Weather App is a simple and user-friendly web application that allows users 
 The Weather App is developed using the following technologies:
 
 - **Front-end**: HTML5, CSS, JavaScript
-- **Weather API**: [Weather API](https://www.openweather.org)
+- **Weather API**: [Weather API](https://www.openweathermap.org)
 
 ## Development
 
@@ -46,7 +46,7 @@ If you are interested in contributing to the development of the Weather App or r
 
 ## API Usage
 
-The Weather App utilizes a weather API to fetch weather data for different locations. As of now, the API used is [openweather.org]. If you plan to deploy this app or make changes that depend on weather data, you will need to sign up for an API key from the weather service provider.
+The Weather App utilizes a weather API to fetch weather data for different locations. As of now, the API used is [openweathermap.org]. If you plan to deploy this app or make changes that depend on weather data, you will need to sign up for an API key from the weather service provider.
 
 ## License
 
